@@ -25,4 +25,4 @@ def generate_test_data(num_packages, num_files_per_package):
             f.write(f"{pkg_dir}\n")
 
 if __name__ == "__main__":
-    generate_test_data(100, 20)
+    generate_test_data(1000, 15)
